@@ -4,22 +4,22 @@ export default function IndexPage() {
     return(
        <div className='container-index'>
             <div className='image1'>
-                <img className='home-image' src="https://iemalteria-back.vercel.app/uploads/img1.jpeg"  alt='img1'/>
+                <img className='home-image' src="https://backend-one-eosin.vercel.app/api/uploads/img1.jpeg"  alt='img1'/>
                 <div className="image-content">
                     <h1>Institución Educativa <br/> Maltería</h1>
-                    <img src="https://iemalteria-back.vercel.app/uploads/logo.png" alt='logo' />
+                    <img src="https://backend-one-eosin.vercel.app/api/uploads/logo.png" alt='logo' />
                 </div>
             </div>
             <div className='info-general'>
                 <div className='mision'>
                     <h1>Misión</h1>
                     <p>Formar niños, niñas y jóvenes con enfoque humanista-socializante, inclusivo, competentes en el ámbito Industrial y del campo, para la conservación y saneamiento ambiental, con el fin de desarrollar proyectos productivos que respondan a las necesidades personales, familiares y comunitarias en contexto local, regional y Nacional, mediante metodologías flexibles dentro del modelo escuela nueva. </p>
-                    <img src="https://iemalteria-back.vercel.app.app/uploads/mision.svg" alt="mision"/>
+                    <img src="https://backend-one-eosin.vercel.app/api/uploads/mision.svg" alt="mision"/>
                 </div>
                 <div className='vision'>
                     <h1>Visión</h1>
                     <p>Para el año 2025, la institución educativa Maltería será reconocida a nivel local, regional, nacional e internacional, por su alto nivel de desarrollo de competencias laborales, generales y específicas; que respondan a las necesidades de un mundo globalizado y beneficiando la calidad de vida de sus estudiantes y sus familias. </p>
-                    <img src="https://iemalteria-back.vercel.app/uploads/vision.png" alt="vision"/>
+                    <img src="https://backend-one-eosin.vercel.app/api/uploads/vision.png" alt="vision"/>
                 </div>
             </div>
 
@@ -28,32 +28,32 @@ export default function IndexPage() {
                 <div className="card-container">
                     {/* Card 1 */}
                     <div className="card">
-                        <img src="https://iemalteria-back.vercel.app/uploads/musica.jpeg" alt="Semillero 1" />
+                        <img src="https://backend-one-eosin.vercel.app/api/uploads/musica.jpeg" alt="Semillero 1" />
                         <h3>Semillero de Formación Musical</h3>
                     </div>
                     {/* Card 2 */}
                     <div className="card">
-                        <img src="https://iemalteria-back.vercel.app/uploads/emprendimiento.jpeg" alt="Semillero 2" />
+                        <img src="https://backend-one-eosin.vercel.app/api/uploads/emprendimiento.jpeg" alt="Semillero 2" />
                         <h3>Semillero de Emprendimiento</h3>
                     </div>
                     {/* Card 3 */}
                     <div className="card">
-                        <img src="https://iemalteria-back.vercel.app/uploads/boxeo.webp" alt="Semillero 3" />
+                        <img src="https://backend-one-eosin.vercel.app/api/uploads/boxeo.webp" alt="Semillero 3" />
                         <h3>Semillero de Boxeo</h3>
                     </div>
                     {/* Card 4 */}
                     <div className="card">
-                        <img src="https://iemalteria-back.vercel.app/uploads/futbol.png" alt="Semillero 4" />
+                        <img src="https://backend-one-eosin.vercel.app/api/uploads/futbol.png" alt="Semillero 4" />
                         <h3>Semillero de Fútbol</h3>
                     </div>
                     {/* Card 5 */}
                     <div className="card">
-                        <img src="https://iemalteria-back.vercel.app/uploads/ambiental.jpeg" alt="Semillero 5" />
+                        <img src="https://backend-one-eosin.vercel.app/api/uploads/ambiental.jpeg" alt="Semillero 5" />
                         <h3>Semillero Ambiental</h3>
                     </div>
                     {/* Card 6 */}
                     <div className="card">
-                        <img src="https://iemalteria-back.vercel.app/uploads/danza2.png" alt="Semillero 6" />
+                        <img src="https://backend-one-eosin.vercel.app/api/uploads/danza2.png" alt="Semillero 6" />
                         <h3>Semillero de Danza</h3>
                     </div>
                 </div>

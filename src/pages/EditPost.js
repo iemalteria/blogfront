@@ -30,7 +30,7 @@ export default function EditPost() {
     const [redirect, setRedirect] = useState(false);
 
     useEffect(() => {
-        fetch(`https://iemalteria-back.vercel.app/post/${id}`)
+        fetch(`https://backend-one-eosin.vercel.app/api/post/${id}`)
             .then(response => response.json())
             .then(postInfo => {
                 setTitle(postInfo.title);
@@ -61,7 +61,7 @@ export default function EditPost() {
             data.set('file', files[0]);
         }
         try {
-            const response = await fetch('https://iemalteria-back.vercel.app/post', {
+            const response = await fetch('https://backend-one-eosin.vercel.app/api/post', {
                 method: 'PUT',
                 body: data,
                 credentials: 'include',

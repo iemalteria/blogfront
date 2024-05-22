@@ -9,7 +9,7 @@ export default function LoginPage() {
     const {setUserInfo} = useContext(UserContext);
     async function login(ev) {
         ev.preventDefault();
-        const response = await fetch('https://iemalteria-back.vercel.applogin', {
+        const response = await fetch('https://backend-one-eosin.vercel.app/api/login', {
             method: 'POST',
             body: JSON.stringify({username,password}),
             headers: {'Content-type': 'application/json'},
