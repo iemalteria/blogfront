@@ -1,0 +1,69 @@
+header {
+    background-color: #1a53ae; 
+    padding: 2%;
+    width: 100%;
+  }
+  
+  header a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  header a.logo {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1.3rem;
+  }
+  
+  header a.logo img {
+    max-height: 4rem; /* Ajusta el tamaño máximo del logo */
+    margin-right: 10px; 
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 2rem;
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+  
+  .navbar .logo {
+    margin-right: auto;
+  }
+  
+  .navbar .nav-bar-element {
+    margin-left: 20px;
+    color: white;
+    font-weight: 600;
+    font-size: 1.2rem;
+  }
+
+  .navbar .nav-bar-element:hover{
+    color: rgb(215, 215, 215);
+    font-weight: 700;
+  }
+  
+  @media screen and (max-width: 700px) {
+    .navbar {
+      flex-direction: column;
+      align-items: flex-start;
+      height: auto;
+    }
+  
+    .navbar .logo {
+      font-size: 1rem; /* Ajusta el tamaño de la fuente del logo en pantallas pequeñas */
+    }
+  
+    .navbar .nav-bar-element {
+      margin-left: 0;
+      margin-top: 10px;
+    }
+  
+    header a.logo img {
+      max-height: 4rem; /* Ajusta el tamaño máximo del logo en pantallas pequeñas */
+    }
+}
+  
