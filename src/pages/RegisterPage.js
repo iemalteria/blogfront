@@ -18,7 +18,7 @@ export default function RegisterPage() {
             return;
         }
 
-        const response = await fetch('https://backend-one-eosin.vercel.app/api/register', {
+        const response = await fetch('https://backend-nu-virid.vercel.app/api/register', {
             method: 'POST',
             body: JSON.stringify({ username, password }),
             headers: { 'Content-Type': 'application/json' },

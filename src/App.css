@@ -286,7 +286,7 @@ a svg {
 .ubicacion {
   width: 100%;
   height: 600px;
-  background-image: url('https://backend-one-eosin.vercel.app/api/uploads/pano4.jpeg');
+  background-image: url('https://backend-nu-virid.vercel.app/uploads/pano4.jpeg');
   background-repeat: no-repeat;
   
   background-size: cover;

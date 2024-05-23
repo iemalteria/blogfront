@@ -10,7 +10,7 @@ export default function BlogPage(){
             withCredentials: true, // This is crucial to include cookies in your requests
         });
 
-        axiosInstance.get('https://backend-one-eosin.vercel.app/api/post')
+        axiosInstance.get('https://backend-nu-virid.vercel.app/api/post')
             .then(response => {
                 setPosts(response.data);
                 console.log(response);
